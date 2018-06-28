@@ -2,16 +2,23 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>index</title>
-
-{% trans "Hallo" %}
-
-{{test}}
+  <meta charset="UTF-8">
+  <title>index</title>
 
 </head>
 <body>
 
+<!--Get language code of link in template, then print code -->
+{% get_current_language as LANGUAGE_CODE %}
+This is the language code of this website: {{LANGUAGE_CODE}}<p>
+
+This is a translated string unsing a translation file: {% trans "Hallo" %}<p>
+This is a variable passed to the template using translation in the view: {{test}}<p>
+
+This section translates the written text on the webpage. The variable is translated in the view:<br>
+{% blocktrans %}
+Das ist der zu übersetzende Text: {{ variable }}
+{% endblocktrans %}
 
 </body>
 

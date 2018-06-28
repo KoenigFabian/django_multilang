@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-28 13:22+0200\n"
+"POT-Creation-Date: 2018-06-28 14:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,13 +19,30 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: multilang/settings.py:112
-msgid "English"
-msgstr ""
+msgid "Englisch"
+msgstr "English"
 
 #: multilang/settings.py:113
-msgid "German"
-msgstr ""
+msgid "Deutsch"
+msgstr "German"
 
-#: testapp/templates/testapp/index.html:8
+#: testapp/templates/testapp/index.html:15
 msgid "Hallo"
 msgstr "Hello"
+
+#: testapp/templates/testapp/index.html:19
+#, python-format
+msgid ""
+"\n"
+"Das ist der zu übersetzende Text: %(variable)s\n"
+msgstr ""
+"\n"
+"This is the text to be translated: %(variable)s\n"
+
+#: testapp/views.py:12
+msgid "das ist ein test"
+msgstr "this is a test"
+
+#: testapp/views.py:13
+msgid "das ist eine variable"
+msgstr "this is a variable"
