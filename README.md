@@ -18,5 +18,5 @@ delete everything that has to do with git in folder
 - rm -rf .git*
 
 
-./manage.py makemessages -l en (create all messages to be translated)
+./manage.py makemessages -l en (create all messages to be translated)<br>
 django-admin compilemessages (compile translation file to be used with django)
