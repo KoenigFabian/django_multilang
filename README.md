@@ -7,11 +7,11 @@ http://levipy.com/django-internationalization/
 install gnu text editor on mac / ubuntu
 
 - mac:
-Install Homebrew : /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-Install GNU gettext : brew install gettext
-Create symlink : brew link gettext --force
+Install Homebrew : /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"<br>
+Install GNU gettext : brew install gettext<br>
+Create symlink : brew link gettext --force<br>
 - ubuntu:
-sudo apt-get install gettext
+sudo apt-get install gettext<br>
 
 
 delete everything that has to do with git in folder
