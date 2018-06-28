@@ -11,5 +11,5 @@ urlpatterns = [
 ]
 
 urlpatterns += i18n_patterns(
-    url(r'testapp/', include('testapp.urls', namespace='testapp')),
+    url(r'', include('testapp.urls', namespace='testapp')),
     )
