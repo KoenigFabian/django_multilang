@@ -4,18 +4,18 @@ django multilanguage example
 setup up multilang follow this link
 http://levipy.com/django-internationalization/
 
-install gnu text editor on mac / ubuntu
+install gnu text editor on mac / ubuntu<p>
 
-- mac:
+- mac:<br>
 Install Homebrew : /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"<br>
 Install GNU gettext : brew install gettext<br>
-Create symlink : brew link gettext --force<br>
-- ubuntu:
-sudo apt-get install gettext<br>
+Create symlink : brew link gettext --force<p>
+- ubuntu:<br>
+sudo apt-get install gettext<br><p>
 
 
-delete everything that has to do with git in folder
-- rm -rf .git*
+delete everything that has to do with git in folder<br>
+- rm -rf .git*<p>
 
 
 ./manage.py makemessages -l en (create all messages to be translated)<br>
