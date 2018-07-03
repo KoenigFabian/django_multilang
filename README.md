@@ -17,6 +17,5 @@ sudo apt-get install gettext<br><p>
 delete everything that has to do with git in folder<br>
 - rm -rf .git*<p>
 
-
-./manage.py makemessages -l en (create all messages to be translated)<br>
+django-admin makemessages -l en (create all messages to be translated)<br>
 django-admin compilemessages (compile translation file to be used with django)
